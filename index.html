@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Honey Web Page</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="./css/materialize.min.css" media="screen,projection"
+  />
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+  <ul id="slide-out" class="side-nav full">
+    <li><a href="#!">First Sidebar Link</a></li>
+    <li><a href="#!">Second Sidebar Link</a></li>
+  </ul>
+
+  <a href="#" data-activates="slide-out" class="button-collapse">
+    <i class="large mdi-navigation-menu"></i>
+  </a>
+  <div class="container">
+    <!--Grid-->
+    <div class="row">
+      <div class="blue lighten-5 col s12 m1 l1">1</div>
+      <div class="blue lighten-4 col s12 m1 l1">1</div>
+      <div class="blue lighten-3 col s12 m1 l1">1</div>
+      <div class="blue lighten-2 col s12 m2 l2">2</div>
+      <div class="blue lighten-1 col s12 m3 l3">2</div>
+      <div class="blue col s12 m4 l4">2</div>
+    </div>
+    <!--Vertical-->
+    <div class="box valign-wrapper">
+      <h5>Vertical</h5>
+    </div>
+    <!--depth-->
+    <p class="z-depth-1">z-depth-1</p>
+    <p class="z-depth-2">z-depth-2</p>
+    <p class="z-depth-3">z-depth-3</p>
+    <p class="z-depth-4">z-depth-4</p>
+    <p class="z-depth-5">z-depth-5</p>
+    <!--buttons-->
+    <a class="waves-effect waves-light btn">Stuff</a>
+    <a class="waves-effect waves-light btn"><i class="mdi-file-cloud left"></i>button</a>
+    <a class="waves-effect waves-light btn"><i class="mdi-file-cloud right"></i>button</a>
+    <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+
+    <!--form-->
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Last Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="username" type="text" class="validate">
+            <label for="username">Username</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="password" type="password" class="validate">
+            <label for="password">Password</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- Icons -->
+    <i class="small material-icons">add</i>
+
+    <i class="medium material-icons">add</i>
+
+    <i class="large material-icons">add</i>
+
+    <!--Tabs-->
+    <br />
+    <div class="row">
+      <div class="col s12">
+        <ul class="tabs">
+          <li class="tab col s3"><a href="#test1">Test 1</a></li>
+          <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
+          <li class="tab col s3"><a href="#test3">Test 3</a></li>
+          <li class="tab col s3"><a href="#test4">Test 4</a></li>
+        </ul>
+      </div>
+      <div id="test1" class="col s12">Test 1</div>
+      <div id="test2" class="col s12">Test 2</div>
+      <div id="test3" class="col s12">Test 3</div>
+      <div id="test4" class="col s12">Test 4</div>
+    </div>
+<br />
+    <!--Material Box-->
+    <img class="materialboxed" width="300" src="./images/boruto.jpg" data-caption="Materialize Demo">
+
+    <!-- Dropdown Trigger -->
+<br />
+    <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Drop Me!</a>
+    <!-- Dropdown Structure -->
+    <ul id='dropdown1' class='dropdown-content'>
+      <li><a href="#!">one</a></li>
+      <li><a href="#!">two</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">three</a></li>
+    </ul>
+  </div>
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="./js/materialize.min.js"></script>
+</body>
+
+</html>
